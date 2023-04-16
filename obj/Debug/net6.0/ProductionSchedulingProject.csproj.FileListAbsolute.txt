@@ -1,0 +1,15 @@
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\bin\Debug\net6.0\ProductionSchedulingProject.exe
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\bin\Debug\net6.0\ProductionSchedulingProject.deps.json
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\bin\Debug\net6.0\ProductionSchedulingProject.runtimeconfig.json
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\bin\Debug\net6.0\ProductionSchedulingProject.dll
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\bin\Debug\net6.0\ProductionSchedulingProject.pdb
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.AssemblyInfoInputs.cache
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.AssemblyInfo.cs
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.dll
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\refint\ProductionSchedulingProject.dll
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.pdb
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.genruntimeconfig.cache
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ref\ProductionSchedulingProject.dll
