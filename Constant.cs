@@ -11,7 +11,7 @@ namespace ProductionSchedulingProject
     public class JobInfor
     {
         public int id { get; set; }
-        public double? priority { get; set; }
+        public double priority { get; set; }
         public string? productCode { get; set; }
         public string? codeBOM { get; set; }
         public string? workCenter { get; set; }
@@ -78,11 +78,11 @@ namespace ProductionSchedulingProject
                 listOrderInfor.Add(orderInfor);
             }
 
-            foreach (JobInfor job in listOrderInfor)
-            {
-                Console.WriteLine($"{job.priority} + {job.productCode} + {job.codeBOM} + {job.workCenter} + {job.alternativeWorkCenters.Count} +{job.mold} + {job.releaseDate} + {job.startDate} + {job.endDate} + {job.dueDate} + {job.processingTime}");
-                Console.WriteLine("-----------------------------------------------------------------------------------------");
-            }
+            //foreach (JobInfor job in listOrderInfor)
+            //{
+            //    Console.WriteLine($"{job.priority} + {job.productCode} + {job.codeBOM} + {job.workCenter} + {job.alternativeWorkCenters.Count} +{job.mold} + {job.releaseDate} + {job.startDate} + {job.endDate} + {job.dueDate} + {job.processingTime}");
+            //    Console.WriteLine("-----------------------------------------------------------------------------------------");
+            //}
             return listOrderInfor;
         }
     }

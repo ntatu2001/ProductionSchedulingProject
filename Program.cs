@@ -19,7 +19,9 @@ namespace ProductionSchedulingProject
 
             //List<JobInfor> jobInfors = GetData.dataDatePlannedStart(bomTable, partnerTable, productTable, workCenterTable, orderTable);
 
-            DataTable scheduledOrderTable = TabuSearch.returnScheduledDataTable(orderTable, workCenterTable, productTable, partnerTable, bomTable);
+            //DataTable scheduledOrderTable = TabuSearch.returnScheduledDataTable(orderTable, workCenterTable, productTable, partnerTable, bomTable);
+            GeneticAlgorithms.createGA(orderTable);
+            //List<JobInfor> bestSolution = TabuSearch.tabuSearch(orderTable, workCenterTable, productTable, partnerTable, bomTable);
         }
     }
 }

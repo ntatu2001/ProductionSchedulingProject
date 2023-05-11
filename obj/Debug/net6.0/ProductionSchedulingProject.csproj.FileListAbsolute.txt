@@ -13,3 +13,5 @@ D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\refin
 D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.pdb
 D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.genruntimeconfig.cache
 D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ref\ProductionSchedulingProject.dll
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\bin\Debug\net6.0\GAF.Core.20.dll
+D:\Visual Studio 2022\Project\ProductionSchedulingProject\obj\Debug\net6.0\ProductionSchedulingProject.csproj.CopyComplete

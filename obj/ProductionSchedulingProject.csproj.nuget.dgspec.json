@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "GAF": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

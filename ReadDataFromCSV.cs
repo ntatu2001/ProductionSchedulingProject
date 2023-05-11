@@ -16,7 +16,7 @@ namespace ProductionSchedulingProject
         /// <returns></returns>
         public static DataTable ReadDataFromOrders()
         {
-            string filePath = @"D:\Scheduling Maintenance\data for production scheduling\File CSV\Orders.csv";
+            string filePath = @"D:\Đồ án tốt nghiệp\Dữ liệu\Dữ liệu điều độ sản xuất\Orders_10.csv";
             DataTable orderTable = new DataTable();
             orderTable.Columns.Add("DueDate");
             orderTable.Columns.Add("NoOfPartner");
@@ -48,10 +48,10 @@ namespace ProductionSchedulingProject
                 Console.WriteLine(ex.Message);
             }
 
-            //foreach (DataRow row in orderTable.Rows)
-            //{
-            //    Console.WriteLine(row["DueDate"] + " " + row["NoOfPartner"] + " " + row["Partner"] + " " + row["ProductCode"] + " " + row["Quantity"] + " " + row["ReleaseDate"]);
-            //}
+            foreach (DataRow row in orderTable.Rows)
+            {
+                Console.WriteLine(row["DueDate"] + " " + row["NoOfPartner"] + " " + row["Partner"] + " " + row["ProductCode"] + " " + row["Quantity"] + " " + row["ReleaseDate"]);
+            }
 
             return orderTable;
         }
@@ -135,10 +135,10 @@ namespace ProductionSchedulingProject
                 Console.WriteLine(ex.Message);
             }
 
-            //foreach (DataRow row in workCenterTable.Rows)
-            //{
-            //    Console.WriteLine(row["Code"] + " " + row["WorkCenter"] + " " + row["Capacity"] + " " + row["OEETarget"] + " " + row["TimeEfficient"] + " " + row["WorkingHours"]);
-            //}
+            foreach (DataRow row in workCenterTable.Rows)
+            {
+                Console.WriteLine(row["Code"] + " " + row["WorkCenter"] + " " + row["Capacity"] + " " + row["OEETarget"] + " " + row["TimeEfficient"] + " " + row["WorkingHours"]);
+            }
 
             return workCenterTable;
         }
@@ -195,12 +195,12 @@ namespace ProductionSchedulingProject
                 Console.WriteLine(ex.Message);
             }
 
-            //foreach (DataRow row in BOMTable.Rows)
-            //{
-            //    Console.WriteLine(row["Product"] + " " + row["Reference"] + " " + row["BOMType"] + " " + row["Quantity"] + " " + row["UnitOfMeasure"] + " " + row["BOMComponent"] + " " + row["BOMProductUnitOfMeasure"]
-            //        + " " + row["BOMQuantity"] + " " + row["OperationsOperation"] + " " + row["OperationsWorkCenter"] + " " + row["OperationsAlternativeWorkCenters"]  + " " + row["OperationsDurationComputation"] 
-            //        + " " + row["OperationsManualDuration"]);
-            //}
+            foreach (DataRow row in BOMTable.Rows)
+            {
+                Console.WriteLine(row["Product"] + " " + row["Reference"] + " " + row["BOMType"] + " " + row["Quantity"] + " " + row["UnitOfMeasure"] + " " + row["BOMComponent"] + " " + row["BOMProductUnitOfMeasure"]
+                    + " " + row["BOMQuantity"] + " " + row["OperationsOperation"] + " " + row["OperationsWorkCenter"] + " " + row["OperationsAlternativeWorkCenters"] + " " + row["OperationsDurationComputation"]
+                    + " " + row["OperationsManualDuration"]);
+            }
 
             return BOMTable;
         }
@@ -257,10 +257,10 @@ namespace ProductionSchedulingProject
                 Console.WriteLine(ex.Message);
             }
 
-            //foreach (DataRow row in productTable.Rows)
-            //{
-            //    Console.WriteLine(row["Name"] + " " + row["InternalReference"] + " " + row["SalesPrice"] + " " + row["Mold"] + " " + row["ProductCategory"] + " " + row["ProductType"] + " " + row["CanBePurchased"] + " " + row["CanBeSold"] + " " + row["Routes"] + " " + row["Description"]);
-            //}
+            foreach (DataRow row in productTable.Rows)
+            {
+                Console.WriteLine(row["Name"] + " " + row["InternalReference"] + " " + row["SalesPrice"] + " " + row["Mold"] + " " + row["ProductCategory"] + " " + row["ProductType"] + " " + row["CanBePurchased"] + " " + row["CanBeSold"] + " " + row["Routes"] + " " + row["Description"]);
+            }
 
             return productTable;
         }
